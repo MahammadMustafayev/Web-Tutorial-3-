@@ -1,0 +1,352 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    position: fixed;
+}
+
+nav {
+    width: 83%;
+    margin: 0 auto 0 auto;
+
+}
+
+header .logo a {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.logo {
+    display: inline-block;
+
+}
+
+.nav-list {
+    display: inline-block;
+    float: right;
+    padding-top: 5px;
+}
+
+.nav-list ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.syte-one {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(http://www.daam.sd/img/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sec-word {
+    margin-left: 30%;
+    padding-top: 15%;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+}
+
+.main-text {
+    margin-top: 90px;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    margin-bottom: 3rem !important;
+}
+
+i {
+    margin: 0 49%;
+    color: orangered;
+}
+
+.btn {
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 38%;
+}
+
+.btn-color {
+    color: #fff;
+    background-color: #f4623a;
+}
+
+.syte-two {
+    width: 100%;
+    height: 400px;
+    background-color: #f4623a;
+}
+
+.abt-word {
+    margin-left: 30%;
+    padding-top: 5%;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+}
+
+.abt-text {
+    margin-top: 90px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    margin-bottom: 3rem !important;
+}
+
+.abt {
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 38%;
+}
+
+.abt-color {
+    background-color: white;
+    color: black;
+
+}
+
+.item {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 27px;
+}
+
+.item-size {
+    width: 100%;
+    height: 500px;
+}
+
+.item-size .v {
+    position: relative;
+    margin-left: 45px;
+    width: 100px;
+    height: 120px;
+    font-size: 18px;
+}
+
+.item-size .v .i {
+    width: 50%;
+    height: 24px;
+}
+
+.item-size .v .i .d {
+    width: 45px;
+    height: 24px;
+}
+
+.item-size .v .i .d .text {
+    width: 12px;
+    height: 9px;
+}
+
+.grid-contanier {
+    display: grid;
+
+}
+
+.grid-item {}
+
+.install {
+    width: 100%;
+    height: 374px;
+    display: inline-block;
+    background-color: #343a40;
+}
+
+.install-text {
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.ins {
+    display: inline-block;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+    text-decoration: none;
+    padding-top: 7%;
+}
+
+.ins-a {
+    color: #000;
+    background-color: #f8f9fa;
+}
+
+.ins-t {
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    margin-left: 38%;
+}
+
+.end {
+    padding: 8rem 0;
+}
+
+.end-container {
+    width: 100%;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+.end-title {
+    color: #000;
+    margin-top: 0;
+    font-size: 42px;
+    text-align: center;
+}
+
+.end-text {
+    color: #343a40;
+    margin-top: 0;
+    padding-top: 4%;
+    font-size: 17px;
+    text-align: center;
+}
+
+.contact-form {
+    margin-bottom: 1rem !important;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.contact-form .name {
+    padding: 1rem 0.76rem;
+    height: 43%;
+    width: 43%;
+    line-height: 1.23;
+
+}
+
+.contact-form .email {
+    padding: 1rem 0.76rem;
+    height: 43%;
+    width: 43%;
+    line-height: 1.23;
+}
+
+.contact-form .phone {
+    padding: 1rem 0.76rem;
+    height: 43%;
+    width: 43%;
+    line-height: 1.23;
+}
+
+.contact-form #message {
+    padding: 1rem 0.76rem;
+    height: 43%;
+    width: 43%;
+    line-height: 1.23;
+}
+
+.text-area {
+    float: left;
+}
+
+.number {
+    float: left;
+}
+
+.email-address {
+    float: left;
+}
+
+.fullname {
+    float: left;
+}
+
+.submit {
+    padding: 1rem 0.76rem;
+    height: 43%;
+    width: 43%;
+    line-height: 1.23;
+}
+
+.sub {
+    background-color: #f4623a;
+    color: white;
+    padding: 2rem 3rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    margin-left: 106%;
+}
+
+.mit {
+    display: inline-block;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+    text-decoration: none;
+    padding-top: 4%;
+}
+
+.the {
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+    background-color: grey;
+}
+
+.end {
+    color: #fff;
+    text-align: center;
+}
+
+.fa-solid {
+    padding-top: 2%;
+    width: 1%;
+    height: 1%;
+}
+
+.number-text {
+    color: gray;
+    padding-top: 2%;
+    text-align: center;
+}
