@@ -56,7 +56,7 @@ a {
 
 .syte-one {
     width: 100%;
-    height: 700px;
+    height: 1000px;
     background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(http://www.daam.sd/img/bg-masthead.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -146,46 +146,54 @@ i {
 
 }
 
-.item {
-    text-align: center;
-    padding-top: 10%;
-    font-size: 27px;
-}
 
-.item-size {
+.white-background {
+    font-size: 20px;
+    font-weight: 100%;
+    background-color: white;
     width: 100%;
-    height: 500px;
+    height: 100px;
+    padding-top: 500px;
+    text-align: center !important;
+    padding: 15%;
+    color: black;
 }
 
-.item-size .v {
-    position: relative;
-    margin-left: 45px;
-    width: 100px;
-    height: 120px;
-    font-size: 18px;
+
+.columns-left {
+    float: left;
+    width: 45%;
 }
 
-.item-size .v .i {
-    width: 50%;
-    height: 24px;
+
+.columns-right {
+    float: right;
+    width: 45%;
 }
 
-.item-size .v .i .d {
-    width: 45px;
-    height: 24px;
+
+.grid-item {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
 }
 
-.item-size .v .i .d .text {
-    width: 12px;
-    height: 9px;
-}
 
 .grid-contanier {
-    display: grid;
-
+    content: "";
+    clear: both;
+    display: table;
 }
 
-.grid-item {}
+
+.fa-solid {
+    color: #F4623A;
+}
+
+
+
+
+
 
 .install {
     width: 100%;
